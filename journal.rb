@@ -5,11 +5,11 @@ class Journal < Formula
   version '0.1.0'
 
   if Hardware.is_64_bit?
-    url "https://github.com/e-jigsaw/journal/releases/download/v0.1.0/journal_darwin_amd64"
-    sha1 "922522ecb42245a241607e7a063647e49c83a054"
+    url "https://github.com/e-jigsaw/journal/releases/download/v0.1.0/journal_darwin_amd64.zip"
+    sha1 "9d064afed582d938920157b9f56020511811c066"
   else
-    url "https://github.com/e-jigsaw/journal/releases/download/v0.1.0/journal_darwin_386"
-    sha1 "3ab4eb0f2815e017c21d7aa38f8ad1dcd0a2f82c"
+    url "https://github.com/e-jigsaw/journal/releases/download/v0.1.0/journal_darwin_386.zip"
+    sha1 "28e392b144ef4d4c890d4bf209083af907c19cc1"
   end
 
   depends_on :arch => :intel
